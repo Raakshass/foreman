@@ -1,0 +1,18 @@
+[
+  {
+    "agentId": "REPLACE_WITH_ECHO_WORKER_AGENT_ID",
+    "serviceId": "REPLACE_WITH_ECHO_WORKER_SERVICE_ID",
+    "displayName": "Echo Worker (safety net)",
+    "capabilities": ["echo", "smoke-test"],
+    "costUSDC": 0.01,
+    "isOwn": true
+  },
+  {
+    "agentId": "REPLACE_WITH_RESEARCH_WORKER_AGENT_ID",
+    "serviceId": "REPLACE_WITH_RESEARCH_WORKER_SERVICE_ID",
+    "displayName": "Research Worker (safety net)",
+    "capabilities": ["research", "analysis"],
+    "costUSDC": 0.05,
+    "isOwn": true
+  }
+]

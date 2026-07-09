@@ -1,0 +1,24 @@
+{
+  "name": "@foreman/agents",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "foreman": "tsx src/foreman/index.ts",
+    "worker:echo": "tsx src/workers/echo-worker.ts",
+    "worker:research": "tsx src/workers/research-worker.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0",
+    "@croo-network/sdk": "^0.2.1",
+    "@foreman/shared": "*",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.0",
+    "typescript": "^6.0.3",
+    "@types/node": "^22.7.0"
+  }
+}

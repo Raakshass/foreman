@@ -1,0 +1,16 @@
+{
+  "name": "foreman-monorepo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/shared",
+    "packages/agents"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "foreman": "npm run foreman --workspace packages/agents",
+    "worker:echo": "npm run worker:echo --workspace packages/agents",
+    "worker:research": "npm run worker:research --workspace packages/agents",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  }
+}
