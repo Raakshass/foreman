@@ -1,15 +1,15 @@
 [
   {
-    "agentId": "REPLACE_WITH_ECHO_WORKER_AGENT_ID",
-    "serviceId": "REPLACE_WITH_ECHO_WORKER_SERVICE_ID",
+    "agentId": "echo-worker",
+    "serviceId": "svc-new-1783611181989",
     "displayName": "Echo Worker (safety net)",
     "capabilities": ["echo", "smoke-test"],
     "costUSDC": 0.01,
     "isOwn": true
   },
   {
-    "agentId": "REPLACE_WITH_RESEARCH_WORKER_AGENT_ID",
-    "serviceId": "REPLACE_WITH_RESEARCH_WORKER_SERVICE_ID",
+    "agentId": "research-worker",
+    "serviceId": "svc-new-1783611380800",
     "displayName": "Research Worker (safety net)",
     "capabilities": ["research", "analysis"],
     "costUSDC": 0.05,
